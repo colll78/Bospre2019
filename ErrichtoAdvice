@@ -1,0 +1,80 @@
+/*
+Advice
+0) Maximize your chance to advance.
+1) Don't go for hard problems.
+2) Follow the standings. Prefer something solved by many teams (including weak ones) over something quickly solved a top team.
+3) Don't be afraid to drop a problem. Think how many times in the past you got a WA or completely wrong idea.
+4) How to split problems? Try to find easy problems first, later split according to skills, remember about the leaderboard.
+- type of problem matters more for harder problems
+- Don't be afraid to switch a problem.
+5) Don't spend more than ~2 hours on a problem. If it's easy, consider giving it somebody else or reading the statement again.
+6) Consider getting some help: hearing a not-full solution and trying to help to come up with full one, hearing a solution and trying to find a mistake, reading code
+XXX 7) Computer is often a bottleneck. Write pseudocode/code on paper.
+7b) Use the other computer to check/experiment. For example, noticing a pattern.
+8) Figure out who is the fastest typer.
+9) It doesn't matter at all who solves how many problems.
+10) Have a team reference document with codes like FFT, heavy light decomposition, ...
+11) At the end of the contest, strategy is crucial -- solve just 1/2 problems.   3:30 into the contest?
+12) Think about the complexity.
+
+Worst advice ever:
+After every contest/training, a person who solved least problems buys everybody a dinner.
+
+
+O(N * M * K * log) -> 10,000 * 10,000 * ...
+
+
+trip: v5 at time 20,  v2 at time 30, v9 at time 99, ...
+                                        ADDED       ADDED
+
+                 v2 at time 24
+int[trip][v_id]
+O(N*M + M*K*log)
+
+
+PQ
+while(!PQ.empty()) {
+    int a = top;  dist[a]
+    for(int trip) {
+        if(dist[a] <= moment when this ship visits 'a') ...
+        dist[b] = dist[a] + length;
+        PQ.add(b);
+    }
+}
+
+~2s
+
+N=500,000
+
+O(N*log(N)) time and O(N*log(N)) memory     vs.       O(N*log^2(N)) time and O(N) memory
+
+rubber duck debugging; a person that is listening should treat the other as somebody stupid
+
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int solve(vector<int> a) {
+    return ..;
+}
+
+int brute(vector<int> a) {
+    ...
+}
+
+int main(){
+    for(int rep = 0; rep < 100; ++rep) {
+        int n = 1 + rand() % 10;
+        vector<int> a;
+        ...
+            
+            
+            
+       if(solve(a) != brute(a)) print a
+    }
+    return 0;
+}
+
+          
