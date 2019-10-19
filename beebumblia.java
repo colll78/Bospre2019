@@ -1,3 +1,7 @@
+/*
+    Given N circles and 1 line segment 
+    Determine if the line segment intersects any of the N circles.
+*/
 import java.util.ArrayList;
 import java.util.Scanner;
 
